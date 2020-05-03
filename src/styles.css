@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background: url("assets/images/backgroundimg.png");
+  background: url("https://raw.githubusercontent.com/abs-hub/angular-abs-hub/master/src/assets/images/backgroundimg.png");
   background-repeat: no-repeat;
   background-color: #e6e6e6;
   font-family: "Open Sans script=all rev=1";
