@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: url("assets/images/backgroundimg.png");
+  background-repeat: no-repeat;
+  background-color: #e6e6e6;
+  font-family: "Open Sans script=all rev=1";
+}
+
+.navbar {
+  background: #e6e6e6;
+}
+
+.navbar .navbar-brand {
+  color: #d10c24;
+}
+
+#my_headline {
+  color: #d10c24;
+}
+
+main {
+  overflow-x: auto;
+  text-align: center;
+}
+
+main .form-control {
+  display: inline-block;
+  width: auto;
+}
+
+.myFooter {
+  background: #e6e6e6;
+}

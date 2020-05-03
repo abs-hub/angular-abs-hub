@@ -1,0 +1,47 @@
+<main class="jumbotron mt-5 jumbotron-fluid">
+  <div class="jumbotron-content">
+    <h1 id="my_headline">Books</h1>
+    <div class="alert alert-info" role="alert">
+      For testing purpose, please use
+      <li>
+        Username: admin
+      </li>
+      <li>
+        Password: password
+      </li>
+    </div>
+    <div class="container">
+      <div class="form-group">
+        <label for="userName">Username:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="userName"
+          placeholder="Enter your User Name"
+          required
+          autofocus
+          [(ngModel)]="userName"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="Enter your Password"
+          [(ngModel)]="password"
+        />
+      </div>
+      <button type="button" class="btn btn-primary" (click)="onLogin()">
+        Login
+      </button>
+      <div *ngIf="loginError">
+        <br />
+        <div class="alert alert-danger">
+          <strong>Error!</strong> Login unsuccessful.
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
